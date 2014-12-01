@@ -1,0 +1,17 @@
+---
+layout: default
+title: Anto Dominic
+---
+<div class="col-xs-12 col-sm-12 col-md-9 col-md-offset-1 col-lg-8 col-lg-offset-2">
+<div id="home">
+  <h1>Blog Posts</h1>
+  <ul class="posts">
+  	<div class="row">
+                
+    {% for post in site.posts %}
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <h1><a href="/blog{{ post.url }}">{{ post.title }}</a></h1></li>
+    {% endfor %}
+
+</div></div>
+  </ul>
+</div>
