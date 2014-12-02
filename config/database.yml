@@ -20,7 +20,11 @@ test:
   <<: *default
 
 production:
-  adapter: postgresql
+  adapter: mysql2
+  encoding: utf8
   database: adantodominic_production
+  username: root
+  password: 7n6dfmkj4i
+  socket: /tmp/mysql.sock
   pool: 5
   timeout: 5000
