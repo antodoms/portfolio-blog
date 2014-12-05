@@ -3,6 +3,7 @@ layout: post
 title: Why I used jekyll and Ruby on Rails for my portfolio blog ?
 published: true
 category: blogging
+permalink: why-I-used-Jekyll-on-Ruby-on-rails-Application.html
 ---
 
 {{ page.title }}
@@ -19,12 +20,22 @@ It was during those tough times when our college was hosting a national level te
 
 Eventhough 7th Semester was bit busy and all, All I could thinking about was completing my Btech with no backlogs at the end of 8th semster. Even today when I remember about my exams, I can never forget those lovely girls who gave me notes and helped me in my studies during the exams. I am pretty sure I would have been broken apart with backlogs without them. Am saying this because I never studied at my home, all I could think about when I reached home was reading new stuffs online, chating in freenode and I don't know why but I always got a good freelance work during my University exams :v . Usually I start studying for an exam during evening on the night before exam and most of the time I just read the notes once and I go to college early on the exam day and ask girls to run me through the notes. This study method had helped me a lot during my btech as I had to spend less time on studies and also managed to get average marks. But again its not always so, there had been times when I didnt even study a bit till morning and scored good marks and also a time where I studied a lot and scored very less.
 
-Again to the fact that why I didnt want Backlogs during my last year of Btech was mainly due to 2 main factors. First one is as simple as it is , "I hate exams" and I cant think of restudying the same subject again next year. There are certain subjects in Electronics that can sweat even the best students if not handled with care, some of it includes AET, Microwave, RP, etc which are like the FM & AMM of Mechanical engineering. Maybe its because the portions of these subjects were vast and bit difficult to understand in one go and to ease up the difficulty the university had been bit . 
+Again to the fact that why I didnt want Backlogs during my last year of Btech was mainly due to 2 main factors. First one is as simple as it is , "I hate writing exams" and I cant think of restudying the same subject again next year. There are certain subjects in Electronics that can sweat even the best students if not handled with care, some of it includes AET, Microwave, RP, etc which are like the FM & AMM of Mechanical engineering. If not handled with care u will surely bag a backlog in MG University. The second reason is I wanted to persue my Master's Degree soon after my Btech studies, and a backlog during the last year will only extend my application procedure.  
 
-Anything else apart from completing my btech exams in time for applying for higher studies.
+Soon after my Btech was over, I was lost didn't knew what to do next. Since I cant apply for higher studies without a provisional certificate which took another 6 months for the university to deliver, but again I had a lot of time like maybe around 8 months before I get university certificate. Then one of my friend from pepalo came up with a Addictive Android Game idea and I got busy with it, well pepalo is like a brotherhood of Tech Geeks. Happy to be a part of it from like 5 years now. I would never had learned new stuffs if it wasn't for pepalo and the awesome people there. When the android game got nice response, I decided why not try out ios app development and I developed the [ios version of the Tomato Bash Game](itunes.apple.com/app/tomato-bash-free/id931276952?mt=8). I published the 1st version on App Store and decided to work on the ios App when I have any of the iOS Mobile device in hand (I was tired of testing in Simulator, it didnt give the feel).. :P While I was developing the ios App I got carried away by ruby on rails by just a curiosity to learn it.
 
-Bloggy was born when [Zach](http://zbruhnke.com) was bored while his girlfriend and her sister were talking and watching the voice.
+This was the time when I sold my 5 year old PR3 Blog techomag for 3000$ to an Australian SEO company. Well that's the story for some other time. For A start I learned ruby on rails scaffolding, using devise to manage users, uploading files to Amazon S3 bucket from rails app , Using Stripe to manage payments, etc and the next thing that struck me was my 2 year old personal website idea. I was so much loving rails by then that I decided to make a blogging platform using rails, but later decided to use Jekyll for blogging and ruby on rails for any projects scripts to place alongside if i make any. That is when I came across a cool project in github [Bloggy](https://github.com/zbruhnke/bloggy), which is a Jekyll blog running on rails Application.
 
-So this gem was created to generate a blog inside my rails application for a blog post I wrote while working at [Engine Yard](http://engineyard.com).
 
-Gem Updated 1/11/2014 with improvements for newer version of Jekyll and rake generate fix
+Why I Decided to use Jekyll for Blogging ?
+------------------------------------------
+
+There are lots of reason why I used Jekyll but the most important reason was I wanted to work out of my comfort Zone. I had been using Wordpress from over 5 years now and there are lots of reason why I decided Jekyll over wordpress. Here are some which you may find useful :
+
+* I could use my All time Favourite text Editor "Sublime Text 2".
+* Jekyll uses static html page so there is no extra requests to database and it thus loads very fast.
+* Its easily editable and you can customize it much better than any other blogging platform.
+* It gives you like a hacker type feeling.
+* By using git and heroku your blog and website is totally free hosted :D :P , So no more hunting for good hosting.
+
+to be continued...
