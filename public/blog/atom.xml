@@ -4,7 +4,7 @@
  <title>BLOG_NAME</title>
  <link href="YOUR_URL/atom.xml" rel="self"/>
  <link href="YOUR_URL"/>
- <updated>2014-12-05T17:22:49+05:30</updated>
+ <updated>2014-12-05T20:36:26+05:30</updated>
  <id>BLOG_URL</id>
  <author>
    <name>BLOG_NAME</name>
@@ -39,11 +39,11 @@
 &lt;p&gt;There are lots of reason why I used Jekyll but the most important reason was I wanted to work out of my comfort Zone. I had been using Wordpress from over 5 years now and there are lots of reason why I decided Jekyll over wordpress. Here are some which you may find useful :&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;I could use my All time Favourite text Editor &quot;Sublime Text 2&quot;.&lt;/li&gt;
-&lt;li&gt;Jekyll uses static html page so there is no extra requests to database and it thus loads very fast.&lt;/li&gt;
-&lt;li&gt;Its easily editable and you can customize it much better than any other blogging platform.&lt;/li&gt;
-&lt;li&gt;It gives you like a hacker type feeling.&lt;/li&gt;
-&lt;li&gt;By using git and heroku your blog and website is totally free hosted :D :P , So no more hunting for good hosting.&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;I could use my All time Favourite text Editor &quot;Sublime Text 2&quot;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Jekyll uses static html page so there is no extra requests to database and it thus loads very fast.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Its easily editable and you can customize it much better than any other blogging platform.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;It gives you like a hacker type feeling.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;By using git and heroku your blog and website is totally free hosted :D :P , So no more hunting for good hosting.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 
