@@ -1,7 +1,21 @@
 markdown: rdiscount
 permalink: /:title.html
 destination: ../../public/blog
+url: "http://antodominic.com/blog"
+baseurl: ""
+
 exclude:
   - Rakefile
   - Gemfile
   - .gitignore
+
+sitemap:
+    file: "/sitemap.xml"
+    exclude:
+        - "/atom.xml"
+        - "/feed.xml"
+        - "/feed/index.xml"
+    include_posts:
+        - "/index.html"
+    change_frequency_name: "change_frequency"
+    priority_name: "priority"
