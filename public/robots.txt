@@ -7,3 +7,11 @@ Disallow: /listings/
 User-agent: *
 Disallow: /pages/about/
 
+User-agent: *
+allow: /beagle-copter/
+
+User-agent: *
+allow: /blog/
+
+
+

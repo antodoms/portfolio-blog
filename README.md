@@ -1,7 +1,6 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is an extension project using Bloggy [https://github.com/zbruhnke/bloggy]
 
 Things you may want to cover:
 
