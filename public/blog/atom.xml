@@ -4,7 +4,11 @@
  <title>BLOG_NAME</title>
  <link href="YOUR_URL/atom.xml" rel="self"/>
  <link href="YOUR_URL"/>
+<<<<<<< HEAD
  <updated>2015-02-18T13:59:32+05:30</updated>
+=======
+ <updated>2015-01-10T20:02:30+05:30</updated>
+>>>>>>> 80de3794c107d5d2f55ef969f956b635147333f0
  <id>BLOG_URL</id>
  <author>
    <name>BLOG_NAME</name>

@@ -1,5 +1,6 @@
 This project is simply an extension of Bloggy Project with extra addition like bootstrap, sitemap and I have removed database connection so as to run the app on heroku. Bloggy is a simple gem that helps you generate a jekyll blog within your rails application by using generator commands similar to the ones you are used to already.
 
+<<<<<<< HEAD
 ## Installation
 
 Add this line to your application's Gemfile:
@@ -53,3 +54,50 @@ Bloggy was built on top of the Jekyll framework written by [Tom Preston-Warner](
 3. Commit your changes (`git commit -am 'Added some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request
+=======
+Installation
+
+Add this line to your application's Gemfile:
+
+gem 'bloggy'
+And then execute:
+
+$ bundle
+Or install it yourself as:
+
+$ gem install bloggy
+Usage
+
+All config elements you are used to in your jekyll blog are still present (and tucked away nicely in your rails app)
+
+Once you run
+
+$ rails g jekyll:blog
+you will find the file structure you are used to seeing for creating blog posts, editing default layout etc. inside of the config/jekyll directory. There you can add add the same commands you would from a normal jekyll installation (they are provided at the Jekyll configuration page). So now just configure to your liking. (edit the default.html inside of _layouts for your main page and the post.html and page.html files for the corresponding results).
+
+I have provided a rake task to name and open your new blog post for editing. To use it just run
+
+$ bundle exec rake np post-title
+By default, your post will open in textmate, but you can override this by creating a .bloggyrc file in your home directory, containing the command line invocation of your editor.
+
+# mine for Rubymine, subl for Sublime Text, mate for TextMate, etc.
+editor: mine
+Your posts will be served from the public/blog directory inside of your rails application. After you write a new blog post simply run
+
+$ bundle exec rake generate
+And the new static files will be generated and ready to be re-deployed and served as static assets by your server!
+
+Some changes are sure to come as I explore and use this on my own, but for now I feel it is a good start and a step in the right direction for quickly and easily adding a blog to your application while keeping costs low. If you have questions or would just like to get in touch you can do so by contacting me here. Thanks for trying out Bloggy and please feel free to fork and contribute!
+
+This gem was originally crafted with love by Zach Bruhnke and was created to show customers on Engine Yard how they could add a simple (and SEO friendly) blog to their existing rails application in no time and save extra time and configuration steps for custom setups that save money.
+
+Bloggy was built on top of the Jekyll framework written by Tom Preston-Warner and uses the same config elements you're used to if you already use jekyll for blogging. The default design I included also came from Tom (clearly I am not much of a designer). Thankfully he provided them under the MIT license for us all to use. Hope you enjoy Bloggy and find it useful for your endeavors.
+
+Contributing
+
+Fork it
+Create your feature branch (git checkout -b my-new-feature)
+Commit your changes (git commit -am 'Added some feature')
+Push to the branch (git push origin my-new-feature)
+Create new Pull Request
+>>>>>>> 80de3794c107d5d2f55ef969f956b635147333f0
