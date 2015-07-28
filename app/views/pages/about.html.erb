@@ -221,7 +221,7 @@
                 <div class="col-lg-8 col-lg-offset-2">
                     <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
                     <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. -->
-                    <form name="sentMessage" id="contactForm">
+                    <form id="contactForm">
                         <div class="row control-group">
                             <div class="form-group col-xs-12 floating-label-form-group controls">
                                 <label>Name</label>
@@ -258,37 +258,7 @@
                             </div>
                         </div>
 
-                        <script>
-                            $.validate({
-                                form: '#contactForm',
-                                onSuccess: function () {
-                                    /* Form Submit */
-
-                                    $.ajax({ 
-                                        dataType: 'jsonp',
-                                        url: "http://getsimpleform.com/messages/ajax?form_api_token=329dbf7efadac0a337c27ee45e1bea9f",
-                                        data: $('#contactForm').serialize()
-                                    }).done(function () {
-                                        //callback which can be used to show a thank you message
-                                        //and reset the form
-                                        $('.action button').attr('disabled', true);
-                                        $('button .bg').animate({ width: '100%' }, 4000, 'swing', function () {
-                                            $('#contactForm').get(0).reset();
-                                        });
-                                        $('button .original').delay(4000).animate({ marginTop: '-40px' }, 500, 'swing');
-                                        $('button .original').delay(500).animate({ marginTop: '0px' }, 500, 'swing');
-                                        $('button .bg').delay(1500).animate({ width: '0%' }, 0, 'linear');
-                                        setTimeout(function () { $('.action button').attr('disabled', false); }, 5000);
-
-
-
-                                    });
-
-                                    return false; // Will stop the submission of the form
-                                },
-
-                            });
-                        </script>
+                        
                     </form>
                 </div>
             </div>

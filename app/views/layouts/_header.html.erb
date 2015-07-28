@@ -63,5 +63,36 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+<script>
+                            $.validate({
+                                form: '#contactForm',
+                                onSuccess: function () {
+                                    /* Form Submit */
+
+                                    $.ajax({ 
+                                        dataType: 'jsonp',
+                                        url: "http://getsimpleform.com/messages/ajax?form_api_token=329dbf7efadac0a337c27ee45e1bea9f",
+                                        data: $('#contactForm').serialize()
+                                    }).done(function () {
+                                        //callback which can be used to show a thank you message
+                                        //and reset the form
+                                        $('.action button').attr('disabled', true);
+                                        $('button .bg').animate({ width: '100%' }, 4000, 'swing', function () {
+                                            $('#contactForm').get(0).reset();
+                                        });
+                                        $('button .original').delay(4000).animate({ marginTop: '-40px' }, 500, 'swing');
+                                        $('button .original').delay(500).animate({ marginTop: '0px' }, 500, 'swing');
+                                        $('button .bg').delay(1500).animate({ width: '0%' }, 0, 'linear');
+                                        setTimeout(function () { $('.action button').attr('disabled', false); }, 5000);
+
+
+
+                                    });
+
+                                    return false; // Will stop the submission of the form
+                                },
+
+                            });
+</script>
 
 </head>
